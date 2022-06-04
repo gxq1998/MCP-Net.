@@ -21,15 +21,10 @@ For a given `/path/to/training/data`, the following script will train the MCP-Ne
 
 ## Registration
 
-If you simply want to register two images, you can use the `register.py` script with the desired model file. For example, if we have a model `model.h5` trained to register a subject (moving) to an atlas (fixed), we could run:
+To correct motion of all the frames, we could run:
 
 ```
-./scripts/tf/register.py --moving moving.nii.gz --fixed atlas.nii.gz --moved warped.npz --model model.h5 --gpu 0
-```
-
-This will save the moved image to `warped.nii.gz`. To also save the predicted deformation field, use the `--save-warp` flag. Both npz or nifty files can be used as input/output in this script.
-
-## Testing (measuring Dice scores)
+./scripts/tf/register_temporal_infun_whole.py --batchsize 5 --moving /path/to/moving/frames --infun /path/to/infun --fixedID 11 --moved /path/to/moved/frames --model /path/to/models/output --warp /path/to/warps --gpu 0
 
 ## Parameter choices
 
@@ -39,6 +34,8 @@ For our data, we found `lambda=0.1` and `patlak-lambda=0.1` with NCC loss to wor
 # Papers
 
 If you use MCP-Net or some part of the code, please cite (see [bibtex](citations.bib)):
+
+# Acknowledgments
 
 The code was heavily borrowed from Voxelmorph (https://github.com/voxelmorph/voxelmorph). The original papers are:
 
@@ -63,4 +60,4 @@ We encourage users to download and process their own data. Note that you likely 
 
 
 # Contact:
-For any problems or questions please [open an issue](https://github.com/voxelmorph/voxelmorph/issues/new?labels=voxelmorph) in github.  
+For any problems or questions please open an issue or contact xueqi.guo@yale.edu.  
