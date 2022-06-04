@@ -55,7 +55,7 @@ CVPR 2018. [eprint arXiv:1802.02604](https://arxiv.org/abs/1802.02604)
 
 
 # Notes on Data
-We originally used a private dataset recruited at Yale PET Center. If you would like to access the data, please contact chi.liu@yale.edu
+We originally used a private dataset at Yale PET Center. If you would like to access the data, please contact chi.liu@yale.edu
 
 We encourage users to download and process their own data. Note that you likely do not need to perform all of the preprocessing steps, and indeed VoxelMorph has been used in other work with other data.
 
