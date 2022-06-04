@@ -1,5 +1,7 @@
 # MCP-Net: Inter-frame Motion Correction with Patlak Regularization for Whole-body Dynamic PET
 
+Provisional acceptance (top ~13%) in MICCAI 2022, Singapore.
+
 The MCP-Net contains three modules: a motion estimation module consisting of a multiple-frame 3-D U-Net with a convolutional long short-term memory layer combined at the bottleneck; an image warping module that performs spatial transformation; and an analytical Patlak module that estimates Patlak fitting with the motion-corrected frames and the individual input function. A Patlak loss penalization term using mean squared percentage fitting error is introduced to the loss function in addition to image similarity measurement and displacement gradient loss.
 
 
@@ -25,6 +27,7 @@ To correct motion of all the frames, we could run:
 
 ```
 ./scripts/tf/register_temporal_infun_whole.py --batchsize 5 --moving /path/to/moving/frames --infun /path/to/infun --fixedID 11 --moved /path/to/moved/frames --model /path/to/models/output --warp /path/to/warps --gpu 0
+```
 
 ## Parameter choices
 
