@@ -2,6 +2,8 @@
 
 Provisional acceptance (top ~13%) in MICCAI 2022, Singapore.
 
+We propose an inter-frame Motion Correction framework with Patlak regularization (MCP-Net) to directly optimize the Patlak fitting error and further improve model performance. 
+
 The MCP-Net contains three modules: a motion estimation module consisting of a multiple-frame 3-D U-Net with a convolutional long short-term memory layer combined at the bottleneck; an image warping module that performs spatial transformation; and an analytical Patlak module that estimates Patlak fitting with the motion-corrected frames and the individual input function. A Patlak loss penalization term using mean squared percentage fitting error is introduced to the loss function in addition to image similarity measurement and displacement gradient loss.
 
 
@@ -57,8 +59,7 @@ CVPR 2018. [eprint arXiv:1802.02604](https://arxiv.org/abs/1802.02604)
 # Notes on Data
 We originally used a private dataset at Yale PET Center. If you would like to access the data, please contact chi.liu@yale.edu
 
-We encourage users to download and process their own data. Note that you likely do not need to perform all of the preprocessing steps, and indeed VoxelMorph has been used in other work with other data.
-
+We encourage users to download and process their own data. 
 
 
 
