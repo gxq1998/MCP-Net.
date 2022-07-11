@@ -1,6 +1,6 @@
 # MCP-Net: Inter-frame Motion Correction with Patlak Regularization for Whole-body Dynamic PET
 
-Provisional acceptance (top ~13%) in MICCAI 2022, Singapore.
+Early acceptance (top ~13%) in MICCAI 2022, Singapore.
 
 We propose an inter-frame Motion Correction framework with Patlak regularization (MCP-Net) to directly optimize the Patlak fitting error and further improve model performance. 
 
