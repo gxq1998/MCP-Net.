@@ -40,23 +40,14 @@ For our data, we found `lambda=0.1` and `patlak-lambda=0.1` with NCC loss to wor
 
 If you use MCP-Net or some part of the code, please cite (see [bibtex](citations.bib)):
 
+Xueqi Guo, Bo Zhou, Xiongchao Chen, Chi Liu, and Nicha Dvornek. MCP-Net: Inter-frame Motion Correction with Patlak Regularization for Whole-body Dynamic PET. In the 25th International Conference on Medical Image Computing and Computer Assisted Intervention, Singapore, Sept 18-22, 2022. 
+
 # Acknowledgments
 
-The code was heavily borrowed from Voxelmorph (https://github.com/voxelmorph/voxelmorph). The original papers are:
-
-  * For the original CNN model, MSE, CC, or segmentation-based losses:
-
-    **VoxelMorph: A Learning Framework for Deformable Medical Image Registration**  
-[Guha Balakrishnan](http://people.csail.mit.edu/balakg/), [Amy Zhao](http://people.csail.mit.edu/xamyzhao/), [Mert R. Sabuncu](http://sabuncu.engineering.cornell.edu/), [John Guttag](https://people.csail.mit.edu/guttag/), [Adrian V. Dalca](http://adalca.mit.edu)  
-IEEE TMI: Transactions on Medical Imaging. 2019. 
-[eprint arXiv:1809.05231](https://arxiv.org/abs/1809.05231)
-
-    **An Unsupervised Learning Model for Deformable Medical Image Registration**  
-[Guha Balakrishnan](http://people.csail.mit.edu/balakg/), [Amy Zhao](http://people.csail.mit.edu/xamyzhao/), [Mert R. Sabuncu](http://sabuncu.engineering.cornell.edu/), [John Guttag](https://people.csail.mit.edu/guttag/), [Adrian V. Dalca](http://adalca.mit.edu)  
-CVPR 2018. [eprint arXiv:1802.02604](https://arxiv.org/abs/1802.02604)
-
+The code was heavily borrowed from Voxelmorph (https://github.com/voxelmorph/voxelmorph). 
 
 # Notes on Data
+
 We originally used a private dataset at Yale PET Center. If you would like to access the data, please contact chi.liu@yale.edu
 
 We encourage users to download and process their own data. 
