@@ -38,7 +38,7 @@ For our data, we found `lambda=0.1` and `patlak-lambda=0.1` with NCC loss to wor
 
 # Papers
 
-If you use MCP-Net or some part of the code, please cite (see [bibtex](citations.bib)):
+If you use MCP-Net or some part of the code, please cite:
 
 Xueqi Guo, Bo Zhou, Xiongchao Chen, Chi Liu, and Nicha Dvornek. MCP-Net: Inter-frame Motion Correction with Patlak Regularization for Whole-body Dynamic PET. In the 25th International Conference on Medical Image Computing and Computer Assisted Intervention, Singapore, Sept 18-22, 2022. 
 
