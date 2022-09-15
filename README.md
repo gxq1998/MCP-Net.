@@ -2,6 +2,8 @@
 
 Early acceptance (top ~13%) in MICCAI 2022, Singapore.
 
+Poster #T096, in Poster 6: Image Segmentation, Registration & Reconstruction II, Sept 20th, 2022, 17:00-18:00.
+
 We propose an inter-frame Motion Correction framework with Patlak regularization (MCP-Net) to directly optimize the Patlak fitting error and further improve model performance. 
 
 The MCP-Net contains three modules: a motion estimation module consisting of a multiple-frame 3-D U-Net with a convolutional long short-term memory layer combined at the bottleneck; an image warping module that performs spatial transformation; and an analytical Patlak module that estimates Patlak fitting with the motion-corrected frames and the individual input function. A Patlak loss penalization term using mean squared percentage fitting error is introduced to the loss function in addition to image similarity measurement and displacement gradient loss.
@@ -42,13 +44,10 @@ If you use MCP-Net or some part of the code, please cite:
 
 Xueqi Guo, Bo Zhou, Xiongchao Chen, Chi Liu, and Nicha Dvornek. MCP-Net: Inter-frame Motion Correction with Patlak Regularization for Whole-body Dynamic PET. In the 25th International Conference on Medical Image Computing and Computer Assisted Intervention, Singapore, Sept 18-22, 2022. 
 
-# Acknowledgments
-
-The code was heavily borrowed from Voxelmorph (https://github.com/voxelmorph/voxelmorph). 
 
 # Notes on Data
 
-We originally used a private dataset at Yale PET Center. If you would like to access the data, please contact chi.liu@yale.edu
+We originally used an internal dataset at Yale PET Center. If you would like to access the data, please contact chi.liu@yale.edu
 
 We encourage users to download and process their own data. 
 
@@ -56,3 +55,14 @@ We encourage users to download and process their own data.
 
 # Contact:
 For any problems or questions please open an issue or contact xueqi.guo@yale.edu.  
+
+
+
+# Acknowledgments
+
+The code was heavily borrowed from Voxelmorph (https://github.com/voxelmorph/voxelmorph). 
+
+## Reference: 
+Balakrishnan, G., Zhao, A., Sabuncu, M.R., Guttag, J., Dalca, A.V.: Voxelmorph:
+a learning framework for deformable medical image registration. IEEE transactions
+on medical imaging 38(8), 1788–1800 (2019)
