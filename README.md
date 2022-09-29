@@ -1,6 +1,6 @@
 # MCP-Net: Inter-frame Motion Correction with Patlak Regularization for Whole-body Dynamic PET
 
-Early acceptance (top ~13%) in MICCAI 2022, Singapore. [paper](https://link.springer.com/chapter/10.1007/978-3-031-16440-8_16)
+Early acceptance (top ~13%) in MICCAI 2022, Singapore. [[Paper]](https://link.springer.com/chapter/10.1007/978-3-031-16440-8_16)
 
 Poster #T096, in Poster 6: Image Segmentation, Registration & Reconstruction II, Sept 20th, 2022, 17:00-18:00.
 
