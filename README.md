@@ -61,7 +61,7 @@ We encourage users to download and process their own data.
 
 
 
-# Contact:
+# Contact
 For any problems or questions please open an issue or contact xueqi.guo@yale.edu.  
 
 
@@ -70,7 +70,7 @@ For any problems or questions please open an issue or contact xueqi.guo@yale.edu
 
 The code was heavily borrowed from Voxelmorph (https://github.com/voxelmorph/voxelmorph). 
 
-## Reference: 
+## Reference
 Balakrishnan, G., Zhao, A., Sabuncu, M.R., Guttag, J., Dalca, A.V.: Voxelmorph:
 a learning framework for deformable medical image registration. IEEE transactions
 on medical imaging 38(8), 1788–1800 (2019)
