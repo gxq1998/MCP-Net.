@@ -88,8 +88,8 @@ inshape = sample_shape[1:-1]
 print('inshape',inshape)
 nfeats = sample_shape[-1]
 
-enc_nf = args.enc if args.enc else [16, 32, 32, 32]#[16, 32, 32, 32] #whole-body 200*200 [16, 32, 32]; 
-dec_nf = args.dec if args.dec else [32, 32, 32, 32, 16, 16, 16]#[32, 32, 32, 32, 32, 16, 16] #whole-body 200*200 [32, 32, 32, 16, 16]; 
+enc_nf = args.enc if args.enc else [16, 32, 32, 32] 
+dec_nf = args.dec if args.dec else [32, 32, 32, 32, 32, 16, 16]
 
 # tensorflow device handling
 device, nb_devices = vxm.tf.utils.setup_device(args.gpu)
