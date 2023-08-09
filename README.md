@@ -16,7 +16,7 @@ keywords: Inter-frame motion correction, Parametric imaging, Tracer kinetics reg
 
 ## Training
 
-If you would like to train your own model, you will likely need to customize some of the data loading code in `voxelmorph/generators.py` for your own datasets and data formats. However, it is possible to run many of the example scripts out-of-the-box, assuming that you have a directory containing training data files in npz (numpy) format. It's assumed that each npz file in your data folder has a `vol` parameter, which points to the numpy image data to be registered, and an optional `seg` variable, which points to a corresponding discrete segmentation. It's also assumed that the shape of all image data in a directory is consistent.
+If you would like to train your own model, you will likely need to customize some of the data loading code in `voxelmorph/generators.py` for your own datasets and data formats. However, it is possible to run many of the example scripts out-of-the-box, assuming that you have a directory containing training data files in npz (numpy) format. It's assumed that each npz file in your data folder has a `vol` parameter, which points to the numpy image data to be registered. It's also assumed that the shape of all image data in a directory is consistent.
 
 For a given `/path/to/training/data`, the following script will train the MCP-Net. Model weights will be saved to a path specified by the `--model-dir` flag.
 
